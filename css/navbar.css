@@ -1,0 +1,41 @@
+.navbar{
+    margin: 0 -50px 0 -50px ; 
+    padding: 0 20px 0 20px ;
+  }
+
+  button{
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 50px;
+    border: 1px solid rgba(200, 154, 88, 1);
+    margin-left: 15px;
+  }
+  
+  #anav{
+    
+    text-decoration: none;
+    color: rgba(200, 154, 88, 1)
+  }
+
+  .act{
+    background-color:rgba(200, 154, 88, 1) ;
+    color : white;
+    
+  }
+  .aclink{
+    color : white;
+  }
+  @media (max-width:999px){
+    
+    :root{
+      margin: 0 10px 0 10px;
+      font-size: medium;
+    }
+    .footer, .navbar{
+      margin: 0;
+    }
+    button{
+      margin-top: 10px;
+      border: 0;
+    }
+  }

@@ -1,0 +1,23 @@
+.carousel-cell {
+  
+    height: 400px;
+    margin-right: 5px;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+    }
+    @media (max-width:999px){
+        .carousel {
+            height: 200px !important;
+            }
+        .carousel-cell {
+           
+           height: 100% !important;
+            }
+        .carousel-cell img {
+              height: 200px;
+              
+             }
+        .footer, .navbar{
+                margin: 0;
+              }
+    }
